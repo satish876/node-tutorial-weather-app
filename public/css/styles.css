@@ -1,0 +1,13 @@
+h1 {
+    color: red;
+}
+.footer {
+    bottom: 0;
+    position: absolute;
+}
+.forecast {
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+    justify-content: space-around;
+}

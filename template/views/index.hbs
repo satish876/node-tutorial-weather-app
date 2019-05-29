@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/app.js" async></script>
+</head>
+
+<body>
+    {{> header }}
+    <p>{{ description }}</p>
+
+    <input type="text" id="locationInput">
+    <button onclick="getForecast()">Get forecast</button>
+
+    <div class="forecast">
+        <span>Location: <span id="forecastLocation"></span></span>
+        <span id="forecastText"></span>
+        <span id="forecastSummary"></span>
+    </div>
+    {{> footer }}
+</body>
+
+</html>
