@@ -1,4 +1,4 @@
-const weatherEndPoint = "http://localhost:3000/weather?location=";
+const weatherEndPoint = "/weather?location=";
 
 function getForecast() {
     const location = document.getElementById("locationInput").value;
